@@ -1,1 +1,71 @@
+# Exploring AWS Organizations and Service Control Policies (SCPs)
 
+## Getting Started with Organizational Governance
+
+This document details my practical exploration of AWS Organizations and Service Control Policies (SCPs) to understand their role in managing multi-account governance.
+
+## What I Did
+
+1.  **Creating Organizational Units (OUs):**
+    - Two OUs were created to represent different environments: `Development` and `Production`.
+
+2.  **Organizing Accounts:**
+    - The designated "Development" AWS account was moved into the `Development` OU, and the "Production" AWS account into the `Production` OU, organizing them by environment.
+
+3.  **Implementing a Restriction in Development:**
+    - An SCP named `DenyDevIAMUserCreation` was created and attached to the `Development` OU to prevent IAM user creation:
+      ```json
+      {
+          "Version": "2012-10-17",
+          "Statement": [
+              {
+                  "Effect": "Deny",
+                  "Action": "iam:CreateUser",
+                  "Resource": "*"
+              }
+          ]
+      }
+      ```
+    - **Verification:** Attempting to create an IAM user in the Development account resulted in an "access denied" error, confirming the SCP's effectiveness.
+
+4.  **Adding a Safety Net in Production:**
+    - An SCP named `DenyProdEC2Termination` was attached to the `Production` OU to prevent EC2 instance termination:
+      ```json
+      {
+          "Version": "2012-10-17",
+          "Statement": [
+              {
+                  "Effect": "Deny",
+                  "Action": "ec2:TerminateInstances",
+                  "Resource": "*"
+              }
+          ]
+      }
+      ```
+    - **Verification:** Although no running EC2 instances were available for direct testing, the SCP's attachment to the Production OU indicates it would prevent instance termination.
+
+5.  **Exploring Broad Restriction:**
+    - To further examine SCP capabilities, a broader policy named `DenyAllEC2` was attached to the [Name of the OU you applied it to, e.g., Development OU for further testing] to block all EC2 actions:
+      ```json
+      {
+          "Version": "2012-10-17",
+          "Statement": [
+              {
+                  "Effect": "Deny",
+                  "Action": "ec2:*",
+                  "Resource": "*"
+              }
+          ]
+      }
+      ```
+    - **Result:** Attempts to perform various EC2 actions within an account in that OU were denied, confirming the policy's broad restriction.
+
+6.  **Reversing the Restriction:**
+    - The `DenyAllEC2` SCP was then detached from the [Name of the OU you detached it from].
+
+7.  **Verifying Removal:**
+    - Subsequently, EC2 actions were successfully performed within an account in that OU, confirming the removal of the SCP's effect.
+
+## What I Learned
+
+This practical exercise demonstrated the core steps for utilizing AWS Organizations to structure accounts and applying Service Control Policies to implement centralized governance and security controls across an AWS environment. SCPs offer a robust mechanism for managing the maximum permissions within different organizational units.
