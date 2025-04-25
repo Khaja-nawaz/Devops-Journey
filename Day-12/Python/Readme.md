@@ -47,7 +47,7 @@ for i in range(input_num):
         print(i, end="")
     print()
     
-"""
+
     1
     22
     333
