@@ -21,10 +21,12 @@ for i in range(input_num):
     for j in range(input_num):
         print(f"{i }")
     print()
+    """
 ****
 ****
 ****
 ****
+"""
 
 
 input_num = int(input("Enter the Number to be in Pattern"))
@@ -39,13 +41,12 @@ for i in range(input_num):
     1234
     12345
 """
-"""
 input_num = int(input("Enter the Number to be in Pattern"))
 for i in range(input_num):
     for j in range(1, i+1):
         print(i, end="")
     print()
-    """
+    
 """
     1
     22
@@ -53,13 +54,13 @@ for i in range(input_num):
     4444
     55555
 """
-"""
+
 input_num = int(input("Enter the Number to be in Pattern"))
 for i in range(input_num):
     for j in range(input_num-i):
         print("*", end="")
     print()
-    """
+
 
 """
 *****
@@ -74,3 +75,12 @@ for i in range(input_num):
     for j in range(1, input_num-i+1):
         print(j, end="")
     print()
+
+
+"""
+12345
+1234
+123
+12
+1
+"""
