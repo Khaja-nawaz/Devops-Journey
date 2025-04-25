@@ -14,7 +14,7 @@ This repository is dedicated to learning and practicing pattern printing using P
 - 
 ## Probelm Solved
 
-
+"""
 #1.
 input_num = int(input("Enter the Number to be in Pattern"))
 for i in range(input_num):
