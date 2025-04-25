@@ -21,7 +21,7 @@ for i in range(input_num):
     for j in range(input_num):
         print(f"{i }")
     print()
-    """
+
 ****
 ****
 ****
