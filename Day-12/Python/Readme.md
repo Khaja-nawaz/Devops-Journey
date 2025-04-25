@@ -11,7 +11,6 @@ This repository is dedicated to learning and practicing pattern printing using P
 - for the inner Loops, Focus On the Columns and connect them somehow to the rows
 - Always print inside the inner loop
 - Observe Symmetry
-- 
 ## Probelm Solved
 
 """
