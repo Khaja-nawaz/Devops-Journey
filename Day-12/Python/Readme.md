@@ -62,6 +62,7 @@ for i in range(input_num):
     print()
 
 
+
 """
 *****
 ****
