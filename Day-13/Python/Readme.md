@@ -1,5 +1,5 @@
 #1️⃣3️⃣ Day- 13,  26 April - 2025
-# 📂 Python File Handling Guide And Some Pattern
+# 📂 Python File Handling Guide And Some Patterns
 
 A comprehensive guide to file operations in Python, covering reading, writing, and advanced file manipulatio
 ## 📌 What I Learned (Yesterday)
