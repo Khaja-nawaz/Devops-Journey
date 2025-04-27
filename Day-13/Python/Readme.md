@@ -26,8 +26,8 @@ with open("example.txt", "w") as file:
 
 
 ##Patterns
-##
 
+## Pattern - 1
   1
  2 2
 3 3 3
@@ -53,4 +53,24 @@ for i in range(middle + 1, input_num + 1):
     for j in range(decrease_val):  # Fixed indentation
         print(decrease_val, end=" ")
     print()  # Moved inside the loop
-""
+
+## Pattern - 2
+
+
+1
+0 1
+0 1 0
+0 1 0 1
+0 1 0 1 0
+
+input_num = int(input("Enter the Number to be in Pattern "))
+start = 1
+for i in range(1, input_num+1):
+    if (i%2 ==1):
+        start = 1
+    else:
+        start = 0
+    for j in range(i):
+        print(start, end=" ")
+        start = 1 - start
+    print()
