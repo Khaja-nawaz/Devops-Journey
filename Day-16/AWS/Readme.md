@@ -1,26 +1,47 @@
-# Today's AWS Learning:
+# 🟡 Today's AWS Learning
 
 I successfully completed the following AWS activities today:
 
-* **Launch a web server with termination protection enabled:** I launched an EC2 instance and configured it to host a web server. I also enabled termination protection to prevent accidental deletion.
-* **Monitor Your EC2 instance:** I set up monitoring for my EC2 instance, likely using CloudWatch, to track key metrics like CPU usage, memory usage, and network traffic.
-* **Modify the security group that your web server is using to allow HTTP access:** I modified the security group associated with my EC2 instance to allow inbound traffic on port 80 (HTTP), enabling access to the web server from the internet.
-* **Resize your Amazon EC2 instance to scale:** I resized my EC2 instance, which means I changed the instance type to either scale up (increase resources) or scale down (decrease resources) based on the needs of my web server.
-* **Test termination protection:** I tested the termination protection I enabled earlier to confirm that the EC2 instance cannot be accidentally terminated.
-* **Terminate your EC2 instance:** I terminated the EC2 instance.
+## ✅ Activities Completed
 
-##   Summary
+- 🚀 **Launch a web server with termination protection enabled**  
+  Launched an EC2 instance and configured it to host a web server. Enabled termination protection to prevent accidental deletion.
 
-Today's focus was on working with EC2 instances, including launching, configuring, monitoring, scaling, securing, and managing their lifecycle.
+- 📊 **Monitor your EC2 instance**  
+  Set up monitoring using **Amazon CloudWatch** to track key metrics like CPU usage, memory usage, and network traffic.
 
-##   Exercises
+- 🔐 **Modify the security group to allow HTTP access**  
+  Updated the EC2 instance's **security group** to allow **inbound traffic on port 80 (HTTP)**, enabling internet access to the web server.
 
+- ⚙️ **Resize your EC2 instance to scale**  
+  Changed the EC2 instance type to **scale up or down** based on the resource requirements of the web server.
 
-1.  **How to resize the EC2 instance without stopping it:**
+- 🧪 **Test termination protection**  
+  Verified that the termination protection setting successfully prevents accidental termination of the EC2 instance.
 
-2.  **How to create a Golden Image (AMI):**
-  
-3.  **How to copy or move the instance region to another / between AZ:**
+- 🗑️ **Terminate your EC2 instance**  
+  Cleaned up the environment by terminating the EC2 instance after validation.
 
-#Whats Next
- ** Will Work on this Exercise and Also Dive into Security Groups, Network ACLs, Elastic Load Balancing Etc ** 
+---
+
+## 📝 Summary
+
+Today's focus was on **working with EC2 instances** — including launching, configuring, monitoring, scaling, securing, and managing their lifecycle effectively.
+
+---
+
+## 🧪 Exercises to Explore
+
+1. ❓ **How to resize an EC2 instance without stopping it**
+2. 📦 **How to create a Golden Image (AMI)**
+3. 🌐 **How to move an EC2 instance to another region or Availability Zone**
+
+---
+
+## 🔜 What's Next?
+
+- 🧠 Work on the exercises listed above  
+- 🧩 Dive deeper into:
+  - 🔐 **Security Groups**
+  - 🧱 **Network ACLs**
+  - 🧰 **Elastic Load Balancing (ELB)**
