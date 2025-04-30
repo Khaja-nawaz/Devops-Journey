@@ -30,7 +30,7 @@ Today's focus was on **working with EC2 instances** — including launching, con
 
 ---
 
-## 🧪 Exercises to Explore
+## 🧪 Exercise to Explore
 
 1. 📦 **How to create a Golden Image (AMI)**
 
