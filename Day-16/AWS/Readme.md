@@ -32,9 +32,7 @@ Today's focus was on **working with EC2 instances** — including launching, con
 
 ## 🧪 Exercises to Explore
 
-1. ❓ **How to resize an EC2 instance without stopping it**
-2. 📦 **How to create a Golden Image (AMI)**
-3. 🌐 **How to move an EC2 instance to another region or Availability Zone**
+1. 📦 **How to create a Golden Image (AMI)**
 
 ---
 
