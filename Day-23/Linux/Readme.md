@@ -16,7 +16,7 @@ I configured a Linux user to use `sudo` **without entering a password**.
    ```bash
    sudo visudo
 2. Add the following line
-
+   ```bash
     your_username ALL=(ALL) NOPASSWD:ALL
 
 3. Now Run the Command Check the Results 
