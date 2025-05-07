@@ -19,6 +19,6 @@ Today, I practiced essential Git commands to understand version control workflow
 
 ### 📂 Understanding the Staging Area
 
-:contentReference[oaicite:18]{index=18}:contentReference[oaicite:20]{index=20}
+In Git, the staging area, also known as the index or cache, acts as an intermediary between your working directory and the repository. It's where you prepare the changes you want to include in your next commit.
 
 ---
