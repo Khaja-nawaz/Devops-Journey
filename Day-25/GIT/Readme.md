@@ -68,11 +68,12 @@ Organized the project with the following structure:
 
 --
 
-Step:1
-- 'git add <file>'
+## Step:1
+- `git add <file>`  
 
- ##git add is used to stage changes from your working directory into the staging area
+ ## git add is used to stage changes from your working directory into the staging area
 
-Step:2
-- git commit -m "Your commit message"
+## Step:2
+- `git commit -m "message"`
+
 ## a commit records a snapshot of the project's current state, including all tracked files, and stores it in the repository
