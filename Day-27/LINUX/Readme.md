@@ -16,3 +16,9 @@ echo "World" >> file.txt
 ```
 ## Appends "World" to file.txt if it exists.
 
+# Prevent Accidental File Overwrite
+# Enable noclobber
+```bash
+set -o noclobber
+echo "Test" > file.txt  # Will give warning if file exists
+```
