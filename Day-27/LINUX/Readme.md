@@ -14,4 +14,5 @@ echo "Hello" > file.txt
 ```bash
 echo "World" >> file.txt
 ```
+# Appends "World" to file.txt if it exists.
 
