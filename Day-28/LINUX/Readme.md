@@ -34,7 +34,7 @@ xz file.txt
 
 ```
 
-##Compress with maximum compression (-9e)
+## Compress with maximum compression (-9e)
 ```bash
 xz -9e file.txt
 
