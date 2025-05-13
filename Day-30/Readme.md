@@ -33,3 +33,36 @@ response = s3_client.create_bucket(
 
 print("Bucket created:", response)
 ```
+
+# 2️⃣ Upload a File to S3
+```
+import boto3
+
+s3_client = boto3.client('s3')
+
+with open("example.txt", "rb") as file_data:
+
+    s3_client.put_object(
+        Bucket='your-unique-bucket-name-123',
+        Key='example.txt',
+        Body=file_data
+    )
+
+print("File uploaded successfully.")
+```
+
+# 3️⃣ Download a File from S3
+```
+import boto3
+
+s3_client = boto3.client('s3')
+
+with open("downloaded_example.txt", "wb") as file_data:
+    s3_client.download_fileobj(
+        Bucket='your-unique-bucket-name-123',
+        Key='example.txt',
+        Fileobj=file_data
+    )
+
+print("File downloaded successfully.")
+```
