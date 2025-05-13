@@ -66,3 +66,18 @@ with open("downloaded_example.txt", "wb") as file_data:
 
 print("File downloaded successfully.")
 ```
+
+# 4️⃣ Put Raw Object Content into S3
+```
+import boto3
+
+s3_client = boto3.client('s3')
+
+s3_client.put_object(
+    Bucket='your-unique-bucket-name-123',
+    Key='raw-text.txt',
+    Body='This is some raw string content being uploaded directly!'
+)
+
+print("Raw text uploaded successfully.")
+```
