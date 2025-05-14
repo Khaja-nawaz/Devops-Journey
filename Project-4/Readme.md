@@ -61,3 +61,17 @@ aws ec2 run-instances \
 ssh -i WebKey.pem ec2-user@<your-ec2-public-ip>
 ```
 
+### 5. Install and Start Apache Server
+
+```bash
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+```
+
+### 6. Uploading a Static webpage to the  Apache Web Server
+```bash
+echo "<h1>Welcome! Deployed manually via AWS CLI</h1>" | sudo tee /var/www/html/index.html
+[//]: # hello
+```
