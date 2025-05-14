@@ -26,4 +26,21 @@ To launch an EC2 instance and automatically install and run a web server (Apache
 ```bash
 aws ec2 create-key-pair --key-name WebKey --query "KeyMaterial" --output text > WebKey.pem
 ```
+### 2. Create a Security Group and Allow HTTP & SSH
+ aws ec2 create-security-group \
+    --group-name WebSG \
+    --description "Allow HTTP and SSH"
 
+# Add HTTP (port 80)
+aws ec2 authorize-security-group-ingress \
+    --group-name WebSG \
+    --protocol tcp \
+    --port 80 \
+    --cidr 0.0.0.0/0
+
+# Add SSH (port 22)
+aws ec2 authorize-security-group-ingress \
+    --group-name WebSG \
+    --protocol tcp \
+    --port 22 \
+    --cidr 0.0.0.0/0
