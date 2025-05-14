@@ -46,3 +46,16 @@ aws ec2 authorize-security-group-ingress \
     --port 22 \
     --cidr 0.0.0.0/0
 ```
+
+### 3. Launch EC2 Instance
+```bash
+aws ec2 run-instances \
+  --image-id ami-0abcdef1234567890 \  # Replace with the correct AMI for your region
+  --count 1 \
+  --instance-type t2.micro \
+  --key-name WebKey \
+  --security-groups WebSG
+```
+
+
+
