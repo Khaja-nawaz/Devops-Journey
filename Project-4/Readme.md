@@ -77,4 +77,4 @@ echo "<h1>Welcome! Deployed manually via AWS CLI</h1>" | sudo tee /var/www/html/
 ```
 ### 7. Access the Web Server
 
-Visit http://<your-ec2-public-ip> in your browser to see the deployed web page.
+Visit http://172.31.10.200 in your browser to see the deployed web page.
