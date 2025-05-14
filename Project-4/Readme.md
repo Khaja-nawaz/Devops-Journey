@@ -75,3 +75,6 @@ sudo systemctl enable httpd
 echo "<h1>Welcome! Deployed manually via AWS CLI</h1>" | sudo tee /var/www/html/index.html
 <!--- So We are Creating page an Uploading it to apache web-server Directory ---> 
 ```
+### 7. Access the Web Server
+
+Visit http://<your-ec2-public-ip> in your browser to see the deployed web page.
