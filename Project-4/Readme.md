@@ -73,5 +73,5 @@ sudo systemctl enable httpd
 ### 6. Uploading a Static webpage to the  Apache Web Server
 ```bash
 echo "<h1>Welcome! Deployed manually via AWS CLI</h1>" | sudo tee /var/www/html/index.html
-[//]: # hello
+<!--- So We are Creating page an Uploading it to apache web-server Directory ---> 
 ```
