@@ -56,6 +56,8 @@ aws ec2 run-instances \
   --key-name WebKey \
   --security-groups WebSG
 ```
-
-
+### 4. Connect to EC2 via SSH
+``` bash
+ssh -i WebKey.pem ec2-user@<your-ec2-public-ip>
+```
 
