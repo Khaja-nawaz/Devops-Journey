@@ -34,3 +34,19 @@ Let’s say you’re working on a coding project for a client. You keep your fil
 ```python
 D:\devops-Journey\Project-5\
 ```
+Now imagine one of these things happens:
+* Your laptop crashes
+
+* You accidentally delete a file
+
+* Someone overwrites your code
+
+With this automation:
+
+* Every day at 11:05 AM, That zip file is uploaded to your AWS S3 bucket
+
+* A log entry is saved so you know the backup happened
+
+Finally 
+
+This Will Make Sure that your script will get storeed in s3 Bucket Every Day at 11:05AM 
