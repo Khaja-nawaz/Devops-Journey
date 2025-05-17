@@ -26,13 +26,17 @@ This document outlines how to install **Docker Desktop** and understand core Doc
    docker --version
    docker run hello-world
     
-📦 Docker Basics
+## 📦 Docker Basics
+
 Docker is a platform that helps developers package applications and their dependencies into containers, making them portable and consistent across environments.
 
-📌 Key Concepts
-Term	Description
-Docker	A tool that lets you build, test, and deploy apps quickly using containers.
-Image	A read-only template that defines a container (like an app snapshot).
-Container	A runnable instance of an image. Isolated and lightweight.
-Dockerfile	A text file with instructions to create a Docker image.
-Docker Hub	A public registry to host and share Docker images.
+### 📌 Key Concepts
+
+| Term        | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| **Docker**  | A tool that lets you build, test, and deploy apps quickly using containers. |
+| **Image**   | A read-only template that defines a container (like an app snapshot).       |
+| **Container** | A runnable instance of an image. Isolated and lightweight.               |
+| **Dockerfile** | A text file with instructions to create a Docker image.                 |
+| **Docker Hub** | A public registry to host and share Docker images.                      |
+
