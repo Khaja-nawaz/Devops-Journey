@@ -26,17 +26,30 @@ This document outlines how to install **Docker Desktop** and understand core Doc
    docker --version
    docker run hello-world
     
-## 📦 Docker Basics
 
-Docker is a platform that helps developers package applications and their dependencies into containers, making them portable and consistent across environments.
 
-### 📌 Key Concepts
+## 🛠 Container Runtime: `runc` and `containerd`
 
-| Term        | Description                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| **Docker**  | A tool that lets you build, test, and deploy apps quickly using containers. |
-| **Image**   | A read-only template that defines a container (like an app snapshot).       |
-| **Container** | A runnable instance of an image. Isolated and lightweight.               |
-| **Dockerfile** | A text file with instructions to create a Docker image.                 |
-| **Docker Hub** | A public registry to host and share Docker images.                      |
+- **runc**: The low-level CLI tool that actually runs containers according to OCI (Open Container Initiative) specifications.
+- **containerd**: A container runtime that manages the entire container lifecycle — including image transfer, container execution, storage, and networking. Used by Docker under the hood.
+
+---
+
+## 🌈 Canary Deployment (Intro)
+
+Canary deployment is a technique to reduce the risk of introducing a new software version in production by gradually rolling out the change to a small subset of users before a full deployment.
+
+### ✅ Benefits:
+- Reduces the blast radius of failures.
+- Enables real-user testing before full rollout.
+- Easy to rollback if something goes wrong.
+
+---
+
+## ✅ Summary
+- Learned the core Docker concepts: image, container, Dockerfile, and Docker Hub.
+- Understood what container runtimes (`runc`, `containerd`) are.
+- Studied the basics of Canary Deployment for safe, progressive releases.
+
+
 
