@@ -49,3 +49,15 @@ terraform destroy
 ```
 - Tears down the resources defined in your Terraform configuration.
 
+Small Code Sample I Have Done
+```h
+
+provider "aws" {
+  region = "us-east-1" # Region selection
+}
+
+resource "aws_instance" "web_server" {
+  ami           = "ami-0953476d60561c955" # AMI ID for Amazon Linux
+  instance_type = "t2.micro"              # Free-tier instance type
+}
+```
