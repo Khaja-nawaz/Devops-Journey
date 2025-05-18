@@ -9,3 +9,9 @@ This README captures the key Terraform concepts and commands I learned today, al
 ### Download from Terraform Downloads
 
 ### Unzip and add it to system PATH.
+
+## To Verify:
+
+```bash
+terraform -version
+```
