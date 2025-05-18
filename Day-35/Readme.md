@@ -49,7 +49,7 @@ terraform destroy
 ```
 - Tears down the resources defined in your Terraform configuration.
 
-Small Code Sample I Have Done
+## Small Code Sample I Have Done
 ```h
 
 provider "aws" {
