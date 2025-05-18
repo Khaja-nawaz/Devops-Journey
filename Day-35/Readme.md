@@ -22,3 +22,4 @@ terraform -version
 
 Terraform uses HCL (HashiCorp Configuration Language) to define infrastructure as code. It allows developers to declare cloud resources (like EC2, S3, VPC, etc.) in a readable and structured format.
 
+-🧠 Terraform translates HCL into actual API calls to the cloud provider to provision the specified resources.
