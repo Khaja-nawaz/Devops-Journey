@@ -22,7 +22,7 @@ terraform -version
 
 Terraform uses HCL (HashiCorp Configuration Language) to define infrastructure as code. It allows developers to declare cloud resources (like EC2, S3, VPC, etc.) in a readable and structured format.
 
--🧠 Terraform translates HCL into actual API calls to the cloud provider to provision the specified resources.
+- 🧠 Terraform translates HCL into actual API calls to the cloud provider to provision the specified resources.
 
 
 # 🛠️ 3. Terraform CLI Workflow
@@ -33,3 +33,13 @@ terraform init
 - Initializes the Terraform configuration directory.
 - Downloads provider plugins.
 
+```bash
+terraform plan
+```
+- Shows what Terraform intends to do without making changes.
+- Good for review before applying.
+
+```bash
+  terraform apply
+```
+- Executes the actual provisioning of infrastructure.
