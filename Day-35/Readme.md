@@ -15,3 +15,10 @@ This README captures the key Terraform concepts and commands I learned today, al
 ```bash
 terraform -version
 ```
+
+#Why Terraform is Best
+
+##  API as Code via HCL
+
+Terraform uses HCL (HashiCorp Configuration Language) to define infrastructure as code. It allows developers to declare cloud resources (like EC2, S3, VPC, etc.) in a readable and structured format.
+
