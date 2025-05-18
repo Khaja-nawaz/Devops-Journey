@@ -25,7 +25,7 @@ Terraform uses HCL (HashiCorp Configuration Language) to define infrastructure a
 - 🧠 Terraform translates HCL into actual API calls to the cloud provider to provision the specified resources.
 
 
-# 🛠️ 3. Terraform CLI Workflow
+# 🛠️ Terraform CLI Workflow
 ```bash
 terraform init
 ```
@@ -43,3 +43,9 @@ terraform plan
   terraform apply
 ```
 - Executes the actual provisioning of infrastructure.
+
+```bash
+terraform destroy
+```
+- Tears down the resources defined in your Terraform configuration.
+
