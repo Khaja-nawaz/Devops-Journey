@@ -60,3 +60,19 @@ variable "instance_type" {
   type        = string
 }
 ```
+
+# 🗂️ 4. Using .tfvars File
+
+---
+
+To separate config values from code, you can store values in .tfvars.
+```hcl
+# terraform.tfvars
+instance_type = "t2.micro"
+```
+
+To Apply the configuration with:
+```hcl
+terraform apply -var-file="terraform.tfvars"
+```
+
