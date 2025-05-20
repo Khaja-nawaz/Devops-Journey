@@ -76,3 +76,30 @@ To Apply the configuration with:
 terraform apply -var-file="terraform.tfvars"
 ```
 
+# 5 Sample Code with Variables and Providers 
+
+```hcl
+# main.tf
+provider "aws" {
+  region = var.region
+}
+
+resource "aws_instance" "my_ec2" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = var.instance_type
+}
+
+```
+
+```hcl
+# variables.tf
+variable "region" {
+  description = "AWS Region"
+  type        = string
+}
+
+variable "instance_type" {
+  description = "Type of EC2 instance"
+  type        = string
+}
+```
