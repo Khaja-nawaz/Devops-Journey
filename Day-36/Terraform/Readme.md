@@ -16,6 +16,8 @@ provider "aws" {
 ```
 # 🌐 2. Multiple Providers (Multi-Region Infrastructure)
 
+---
+
 To deploy infrastructure in multiple regions, we can define multiple provider blocks using aliases.
 ```hcl 
 provider "aws" {
