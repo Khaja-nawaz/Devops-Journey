@@ -42,3 +42,21 @@ resource "aws_instance" "west_server" {
   instance_type = "t2.micro"
 }
 ```
+
+# 🎛️ 3. Variables in Terraform
+
+---
+Terraform allows the use of input variables to make configurations flexible and reusable.
+```hcl
+# variables.tf
+variable "region" {
+  description = "AWS Region"
+  type        = string
+  default     = "us-east-1"
+}
+
+variable "instance_type" {
+  description = "Type of EC2 instance"
+  type        = string
+}
+```
