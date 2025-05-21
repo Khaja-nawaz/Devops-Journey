@@ -29,3 +29,34 @@
     - Compile code, resolve dependencies.
 
     - Package application artifacts for the next stages.
+
+3. 🧪 Test Environment
+- What it is:
+    - A dedicated setup to run automated tests on the build.
+
+- Tools involved:
+
+    - Selenium, JUnit, PyTest, Postman (API Tests)
+
+- Purpose:
+
+    - Catch bugs early.
+
+    - Validate logic, security, and performance.
+ 
+4. 🧪🖥️ Pre-Production Environment (Staging / 1-box)
+
+Also called:
+        - 1-box (a single server mock of production)
+        
+- Purpose:
+
+    - Mirror of the production setup for final validations.
+
+    - Manual QA testing or UAT (User Acceptance Testing).
+
+- Looks like:
+    - Production in configuration, but isolated.
+
+
+
