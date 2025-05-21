@@ -19,3 +19,7 @@
 
 ## 🧮 Step 2: CIDR Binary Breakdown
 ### Let's break down the IP 10.0.0.0 in binary:
+```makefile
+Decimal:      10     . 0     . 0     . 0
+Binary:    00001010.00000000.00000000.00000000
+```
