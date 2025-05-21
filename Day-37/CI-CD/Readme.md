@@ -16,3 +16,16 @@
     - Branching strategies (feature, develop, main).
 
 
+2. 🏗️ Build
+- What it is:
+    - Converts source code into executable format (binaries, packages, etc.).
+
+- Tools involved:
+
+    - Jenkins, Maven, Gradle, GitHub Actions
+
+- Purpose:
+
+    - Compile code, resolve dependencies.
+
+    - Package application artifacts for the next stages.
