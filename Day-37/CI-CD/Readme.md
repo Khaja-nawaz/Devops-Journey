@@ -46,7 +46,7 @@
  
 4. 🧪🖥️ Pre-Production Environment (Staging / 1-box)
 
-Also called:
+- Also called:
         - 1-box (a single server mock of production)
         
 - Purpose:
@@ -57,6 +57,25 @@ Also called:
 
 - Looks like:
     - Production in configuration, but isolated.
+ 
+
+5. 🚀 Production Environment (Actual)
+- What it is:
+    - The real, user-facing environment.
+
+- Purpose:
+
+    - Serve live users.
+
+    - Needs high availability, reliability, and monitoring.
+
+- Tools involved:
+
+    - AWS, GCP, Azure (Infra)
+
+    - Prometheus, Grafana, ELK, CloudWatch (Monitoring)
+ 
+✅ By following this staged approach, we can  ensure code quality, minimize risks, and deliver reliable software faster.
 
 
 
