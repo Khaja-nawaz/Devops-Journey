@@ -16,3 +16,6 @@
 - CIDR Block Used: 10.0.0.0/26
 
 - This provides 64 IP addresses (from 10.0.0.0 to 10.0.0.63).
+
+## 🧮 Step 2: CIDR Binary Breakdown
+### Let's break down the IP 10.0.0.0 in binary:
