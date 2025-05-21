@@ -9,3 +9,10 @@
 - Subnets are created within Availability Zones inside the VPC.
 
 - By default, all resources in a VPC can communicate with each other, even if they are in different Availability Zones.
+
+## 🧪 Example: VPC with Subnet, Route Table, and Internet Gateway
+### ✅ Step 1: Creating a VPC
+
+- CIDR Block Used: 10.0.0.0/26
+
+- This provides 64 IP addresses (from 10.0.0.0 to 10.0.0.63).
