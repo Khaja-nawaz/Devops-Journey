@@ -40,7 +40,7 @@ Binary:    00001010.00000000.00000000.00000000
 
 - But not all 64 IPs are usable:
 
-  | Reserved For      | IP Address       | Description                        |
+| Reserved For      | IP Address       | Description                        |
 | ----------------- | ---------------- | ---------------------------------- |
 | Network Address   | `10.0.0.0`       | Identifies the subnet              |
 | Broadcast Address | `10.0.0.63`      | Used to communicate with all hosts |
