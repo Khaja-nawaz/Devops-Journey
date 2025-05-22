@@ -94,3 +94,10 @@ docker run -p <host-port>:<container-port> <image-name>
 docker ps
 docker container ls
 ```
+
+📝 Notes
+- CMD is used to define the default command that runs inside the container.
+
+- EXPOSE is a way of documenting the port, but you still need -p flag while running.
+
+- Learned the concept of images, containers, and the importance of rebuilding when the code or Dockerfile changes.
