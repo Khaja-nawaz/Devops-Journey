@@ -80,3 +80,17 @@ docker build -t python-web-server .
 # Run the container with port mapping
 docker run -p 8000:8000 python-web-server
 ```
+🧠 What I Learned
+- How to write and structure a Dockerfile
+
+- Every time the Dockerfile or app code is changed, the image must be rebuilt
+
+- Basic Docker commands like:
+
+```bash 
+docker build -t <image-name> .
+docker run <image-name>
+docker run -p <host-port>:<container-port> <image-name>
+docker ps
+docker container ls
+```
