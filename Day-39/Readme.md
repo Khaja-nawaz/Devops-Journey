@@ -80,7 +80,7 @@ docker build -t python-web-server .
 # Run the container with port mapping
 docker run -p 8000:8000 python-web-server
 ```
-🧠 What I Learned
+### 🧠 What I Learned
 - How to write and structure a Dockerfile
 
 - Every time the Dockerfile or app code is changed, the image must be rebuilt
@@ -95,7 +95,7 @@ docker ps
 docker container ls
 ```
 
-📝 Notes
+### 📝 Notes
 - CMD is used to define the default command that runs inside the container.
 
 - EXPOSE is a way of documenting the port, but you still need -p flag while running.
