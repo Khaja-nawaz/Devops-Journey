@@ -51,3 +51,9 @@ Runs a container based on a Docker image.
 docker run -d -p 80:80 myapp
 ```
 
+### 📤 docker push
+Pushes a built image to Docker Hub or any container registry.
+```bash
+docker tag myapp myusername/myapp
+docker push myusername/myapp
+```
