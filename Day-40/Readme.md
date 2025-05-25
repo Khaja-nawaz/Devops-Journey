@@ -43,4 +43,11 @@ Builds a Docker image from a Dockerfile.
 
 ```bash
 docker build -t myapp .
+```
+
+### 🚀 docker run
+Runs a container based on a Docker image.
+```bash
+docker run -d -p 80:80 myapp
+```
 
