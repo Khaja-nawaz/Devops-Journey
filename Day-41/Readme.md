@@ -45,3 +45,12 @@ sudo apt install mosh
 ```bash
 mosh ubuntu@18.222.100.200
 ```
+
+## ⚙️ Server-Side Setup (AWS EC2 Example)
+
+Install Mosh on your EC2 instance:
+
+```bash
+sudo apt install mosh
+```
+
