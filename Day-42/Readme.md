@@ -18,3 +18,6 @@ mtr google.com
 ## 📊 2. stat - File Metadata Info
 
 Displays detailed information about files, including inode, access, modification time, and permissions.
+```bash
+stat filename.txt
+```
