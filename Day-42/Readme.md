@@ -21,3 +21,14 @@ Displays detailed information about files, including inode, access, modification
 ```bash
 stat filename.txt
 ```
+✅ Useful for debugging file issues or checking timestamps
+
+## 🐶 3. dog - Modern dig Alternative
+
+A more readable version of dig, used for DNS lookups.
+```bash
+dog example.com
+```
+
+- ✅ Clean output format
+- ✅ Shows A, AAAA, CNAME, MX records, and more
