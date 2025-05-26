@@ -62,5 +62,48 @@ shred -u -z secret.txt
 - ✅ Prevents file recovery
 - ✅ -u: removes after shredding, -z: adds a final overwrite with zeros
 
+## 🐳 7. lazydocker - Terminal Docker UI
+
+A simple terminal UI for managing Docker containers and images.
+
+```bash
+lazydocker
+```
+
+- ✅ Monitor containers, logs, stats
+- ✅ Lightweight and super convenient for developers
+
+## 🕒 8. ts - Timestamp Output
+
+Prefixes each line of output with a timestamp.
+```bash
+echo "Hello World" | ts
+```
+- ✅ Great for logging and debugging script outputs
+
+## ✅ 9. taskwarrior - Command-line Task Manager
+
+Powerful CLI task management tool for ToDos.
+```bash
+task add Finish DevOps notes due:tomorrow
+task list
+```
+- ✅ Supports tagging, priorities, due dates
+- ✅ Perfect for terminal-based productivity
+
+## 📌 Summary Table
+
+| Command       | Purpose                | Example Usage             |      |
+| ------------- | ---------------------- | ------------------------- | ---- |
+| `mtr`         | Network trace & ping   | `mtr google.com`          |      |
+| `stat`        | File metadata          | `stat file.txt`           |      |
+| `dog`         | DNS lookup tool        | `dog example.com`         |      |
+| `ipcalc`      | IP subnet calculator   | `ipcalc 10.0.0.0/24`      |      |
+| `wormhole`    | Secure file sharing    | `wormhole send file.zip`  |      |
+| `shred`       | Secure file deletion   | `shred -u -z secrets.txt` |      |
+| `lazydocker`  | Docker terminal UI     | `lazydocker`              |      |
+| `ts`          | Timestamp output lines | \`cat log.txt             | ts\` |
+| `taskwarrior` | CLI task manager       | `task add “todo item”`    |      |
+
 
 
