@@ -14,3 +14,7 @@ mtr google.com
 
 - ✅ Shows each hop between your machine and the destination
 - ✅ Includes packet loss, latency, and jitter info
+
+## 📊 2. stat - File Metadata Info
+
+Displays detailed information about files, including inode, access, modification time, and permissions.
