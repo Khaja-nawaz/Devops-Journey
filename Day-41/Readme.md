@@ -29,3 +29,12 @@ sudo apt update
 sudo apt install mosh
 ```
 
+## 🔐 How Mosh Works
+
+### Mosh initially connects using SSH to authenticate.
+
+- It then starts a UDP session on the server.
+
+- Mosh client communicates over that UDP port, enabling reconnection and roaming without restarting the session.
+
+- Make sure UDP ports (typically 60000-61000) are open on your server.
