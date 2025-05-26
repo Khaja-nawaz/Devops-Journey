@@ -59,4 +59,8 @@ Overwrites a file multiple times to securely delete it.
 ```bash
 shred -u -z secret.txt
 ```
+- ✅ Prevents file recovery
+- ✅ -u: removes after shredding, -z: adds a final overwrite with zeros
+
+
 
