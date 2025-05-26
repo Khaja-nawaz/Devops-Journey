@@ -38,3 +38,10 @@ sudo apt install mosh
 - Mosh client communicates over that UDP port, enabling reconnection and roaming without restarting the session.
 
 - Make sure UDP ports (typically 60000-61000) are open on your server.
+
+## 🔧 Usage
+### Basic syntax:
+
+```bash
+mosh ubuntu@18.222.100.200
+```
