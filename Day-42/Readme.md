@@ -32,3 +32,31 @@ dog example.com
 
 - ✅ Clean output format
 - ✅ Shows A, AAAA, CNAME, MX records, and more
+
+## 📐 4. ipcalc - IP/Subnet Calculator
+
+Breaks down IP addresses and subnets in human-readable format.
+
+```bash
+ipcalc 192.168.1.0/24
+```
+- ✅ Shows network, broadcast, and host ranges
+- ✅ Useful for VPC and networking configurations
+
+## 🌐 5. wormhole - Secure File Transfer
+
+Enables secure file transfer between two machines using a one-time code.
+```bash 
+wormhole send myfile.zip
+```
+- ✅ Cross-platform
+- ✅ Peer-to-peer encrypted transfer using magic wormhole protocol
+
+## 🔒 6. shred - Secure File Delete
+
+Overwrites a file multiple times to securely delete it.
+
+```bash
+shred -u -z secret.txt
+```
+
