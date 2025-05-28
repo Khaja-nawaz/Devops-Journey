@@ -36,3 +36,10 @@ module "ec2_instance" {
   ami           = "ami-123456789"
   region        = "us-east-1"
 }
+
+```
+## 🛠️ Terraform CLI Commands Learned
+terraform apply -refresh-only
+- Refreshes the state file without making any changes to the real infrastructure.
+
+- Useful for syncing the local state with the actual cloud resources.
