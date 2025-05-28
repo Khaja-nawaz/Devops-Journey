@@ -43,3 +43,7 @@ terraform apply -refresh-only
 - Refreshes the state file without making any changes to the real infrastructure.
 
 - Useful for syncing the local state with the actual cloud resources.
+
+```bash
+terraform apply -refresh-only
+```
