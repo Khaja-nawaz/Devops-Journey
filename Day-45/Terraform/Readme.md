@@ -25,3 +25,14 @@ my-module/
 ├── variables.tf # Input variables
 ├── outputs.tf # Outputs from the module
 ```
+
+### 🧰 Using a Module
+
+```hcl
+module "ec2_instance" {
+  source = "./modules/ec2"
+  
+  instance_type = "t2.micro"
+  ami           = "ami-123456789"
+  region        = "us-east-1"
+}
