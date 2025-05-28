@@ -18,9 +18,10 @@ Modules in Terraform are reusable packages of Terraform configuration files. The
 ### 🧱 Module Structure
 
 A basic module typically includes:
-
+```
 my-module/
 │
 ├── main.tf # Core resources
 ├── variables.tf # Input variables
 ├── outputs.tf # Outputs from the module
+```
