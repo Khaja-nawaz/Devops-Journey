@@ -68,3 +68,10 @@ To create a Docker image from your Dockerfile.
 ```bash
 docker build -t my-flash-image .
 ```
+
+
+## Running Docker Containers
+To create and run a container from an image.
+```bash
+docker run -p 5000:5000 my-flask-image:latest
+```
