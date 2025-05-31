@@ -100,3 +100,19 @@ docker stop <container-id-or-name>
 ```bash
 docker container prune
 ```
+
+## Remove dangling images (untagged, unused layers):
+```bash
+docker image prune
+```
+
+
+## Working with Docker Hub (Registries)
+Docker Hub is a public registry for storing and sharing Docker images.
+
+### Logging In
+Authenticate your Docker client with Docker Hub.
+```bash
+docker login
+```
+
