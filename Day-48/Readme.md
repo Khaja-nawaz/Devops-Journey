@@ -75,3 +75,20 @@ To create and run a container from an image.
 ```bash
 docker run -p 5000:5000 my-flask-image:latest
 ```
+
+## Managing Containers
+List running containers:
+```bash
+docker ps
+```
+Shows CONTAINER ID, IMAGE, COMMAND, CREATED, STATUS, PORTS, NAMES.
+
+## List all containers (running and exited):
+```bash 
+docker ps -a
+```
+
+## Stop a running container:
+``bash
+docker stop <container-id-or-name>
+``
