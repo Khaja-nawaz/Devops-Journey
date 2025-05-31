@@ -115,4 +115,24 @@ Authenticate your Docker client with Docker Hub.
 ```bash
 docker login
 ```
+You will be prompted for your Docker Hub username and password.
+
+## Tagging Images for Docker Hub
+Before pushing, tag your local image with your Docker Hub username and repository name
+```bash
+docker tag my-flask-image:latest nawaz953/my-flask-image:1.0
+```
+## Pushing Images
+Upload your tagged image to Docker Hub.
+
+```bash
+docker push nawaz953/my-flask-image:1.0
+```
+
+## Pulling Images
+Download an image from Docker Hub to your local machine.
+```bash
+docker pull nawaz953/my-flask-image:1.0
+```
+
 
