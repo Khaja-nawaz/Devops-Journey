@@ -89,6 +89,6 @@ docker ps -a
 ```
 
 ## Stop a running container:
-``bash
+```bash
 docker stop <container-id-or-name>
-``
+```
