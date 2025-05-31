@@ -96,3 +96,7 @@ docker rm <container-id-or-name>
 ```bash
 docker stop <container-id-or-name>
 ```
+## Remove all exited containers (cleanup):
+```bash
+docker container prune
+```
