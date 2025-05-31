@@ -61,3 +61,10 @@ EXPOSE 5000
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
+
+```
+## Building Docker Images
+To create a Docker image from your Dockerfile.
+```bash
+docker build -t my-flash-image .
+```
