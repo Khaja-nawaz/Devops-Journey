@@ -87,6 +87,10 @@ Shows CONTAINER ID, IMAGE, COMMAND, CREATED, STATUS, PORTS, NAMES.
 ```bash 
 docker ps -a
 ```
+## Remove a stopped container:
+```bash
+docker rm <container-id-or-name>
+```
 
 ## Stop a running container:
 ```bash
