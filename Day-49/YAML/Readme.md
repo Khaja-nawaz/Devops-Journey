@@ -55,4 +55,5 @@ user:
 
 - No data types required (strings, integers, booleans inferred automatically).
 
-  
+## 📚 Summary
+YAML is a lightweight, readable, and powerful format ideal for managing configurations in DevOps workflows. Its simplicity and flexibility make it a go-to tool for engineers managing infrastructure, pipelines, and deployments.
