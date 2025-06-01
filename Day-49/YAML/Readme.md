@@ -48,3 +48,11 @@ user:
     location: "Remote"
     experience: "3 years"
 ```
+## 📝 Tips
+- Indentation is critical (use spaces, not tabs).
+
+- Use # to comment your configuration.
+
+- No data types required (strings, integers, booleans inferred automatically).
+
+  
