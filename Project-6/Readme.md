@@ -41,3 +41,10 @@ Before you begin, make sure you have:
   ```bash
   aws configure
   ```
+## 📁 Project Structure
+aws-web-server-project/
+├── main.tf           # Main Terraform configurations
+├── variables.tf      # Input variables
+├── outputs.tf        # Output values (like ALB DNS)
+├── terraform.tfvars  # Actual values for the variables
+└── README.md         # You're here!
