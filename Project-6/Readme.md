@@ -48,3 +48,4 @@ aws-web-server-project/
 ├── outputs.tf        # Output values (like ALB DNS)
 ├── terraform.tfvars  # Actual values for the variables
 └── README.md         # You're here!
+|
