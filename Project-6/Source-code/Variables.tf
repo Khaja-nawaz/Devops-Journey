@@ -16,8 +16,3 @@ variable "aws_vpc" {
 
 }
 
-variable "aws_vpc_cidr_block" {
-
-
-
-}
