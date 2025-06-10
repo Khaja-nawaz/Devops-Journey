@@ -1,6 +1,7 @@
-# 📅 Day 56 – Project 6: AWS Automated Web Server Deployment with Auto Scaling
+# 📅 Day 56 – Project 6: AWS Automated Web Server Deployment with Auto Scaling Using Terraform
 
-This repository documents my progress and learnings on **Day 56** of my DevOps journey, focused on **Project 6**, where I continued building AWS infrastructure using Terraform.
+This repository documents my progress and learnings on **Day 56** of my DevOps journey, focused on **Project 6**, where I continued building  AWS Automated Web Server Deployment with Auto Scaling Using Terraform
+
 
 ---
 
