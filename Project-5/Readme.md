@@ -23,7 +23,7 @@ This way, even if your local machine crashes, your important data is safely stor
 
 - Uses **`boto3`** (AWS SDK for Python) to interact with S3
 - Maintains a text-based log file (`backup_log.txt`)
-- Runs daily at 3:00 PM using **Windows Task Scheduler**
+- Runs daily at 11:05 AM using **Windows Task Scheduler**
 
 ---
 
