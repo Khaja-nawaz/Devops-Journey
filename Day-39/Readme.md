@@ -5,7 +5,7 @@
 ## 📦 Project 1: Basic Python Script in Docker
 ### 📝 app.py
 ```python
-  print("Hello Nigger From the Nigger Community")
+  print("Hello  Community")
 ```
 ### 🐳 Dockerfile
 ```Dockerfile
